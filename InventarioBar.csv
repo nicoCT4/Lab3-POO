@@ -1,0 +1,7 @@
+﻿id_producto;nombre;cantidad_disponible;cantidad_vendidos;estado;precio;categoria;ml;tipo;gramos;sabor;tamaño
+1;Coca Cola;100;10;Disponible;10;Bebida;500;Energetica;;;
+2;Agua pura;50;5;Disponible;5;Bebida;600;Natural;;;
+3;Papas ;200;15;Disponible;6;Snack;;;200;Barbacoa;Individual
+4;Galletas;150;12;Disponible;10;Snack;;;250;chocolate;Familiar
+5;Pan Integral;50;5;Disponible;3;Pan;;;;Integral;Grande
+6;Pan Dulce;30;3;Disponible;2;Pan;;;;Dulce;Mediano
