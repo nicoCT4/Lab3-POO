@@ -39,14 +39,6 @@ public abstract class Producto {
     public String getCategoria() {
         return categoria;
     }
-    public String toString() {
-        return "ID: " + id + "\n" +
-            "Nombre: " + nombre + "\n" +
-            "Cantidad disponible: " + cantidadDisponible + "\n" +
-            "Cantidad vendidos: " + cantidadVendidos + "\n" +
-            "Estado: " + estado + "\n" +
-            "Precio: " + precio + "\n";
-    }
 
     //Metodos Abstractos
         public abstract void imprimirDetalles();

@@ -85,20 +85,20 @@ public class Gastos {
                 } else if (categoria.equals("Snack")) {
                     int gramos = Integer.parseInt(partes[9]);
                     String sabor = partes[10];
-                    String tamaño = partes[11];
-                    Snack snack = new Snack(id, nombre, cantidadDisponible, cantidadVendidos, estado, precio, gramos, sabor, tamaño);
+                    String tamanio = partes[11];
+                    Snack snack = new Snack(id, nombre, cantidadDisponible, cantidadVendidos, estado, precio, gramos, sabor, tamanio);
                     AgregarProducto(snack);
                 } else if (categoria.equals("Pan")) {
-                    String tamaño = partes[9];
+                    String tamanio = partes[11];
                     String sabor = partes[10];
-                    Pan pan = new Pan(id, nombre, cantidadDisponible, cantidadVendidos, estado, precio, tamaño, sabor);
+                    Pan pan = new Pan(id, nombre, cantidadDisponible, cantidadVendidos, estado, precio, tamanio, sabor);
                     AgregarProducto(pan);
                 }
             }
     
             lector.close();
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("Error al leer el archivo: " + e);
         }
     }
 

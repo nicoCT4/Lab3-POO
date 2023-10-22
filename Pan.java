@@ -1,16 +1,16 @@
 public class Pan extends Producto{
-    private String tamaño;
+    private String tamanio;
     private String sabor;
 
-    public Pan(int id, String nombre, int cantidadDisponible, int cantidadVendidos, String estado, int precio, String tamaño, String sabor) {
+    public Pan(int id, String nombre, int cantidadDisponible, int cantidadVendidos, String estado, int precio, String tamanio, String sabor) {
         super(id, nombre, cantidadDisponible, cantidadVendidos, estado, precio, "Pan");
-        this.tamaño = tamaño;
+        this.tamanio = tamanio;
         this.sabor = sabor;
     }
 
     //Getters
-    public String getTamaño() {
-        return tamaño;
+    public String getTamanio() {
+        return tamanio;
     }
     public String getSabor() {
         return sabor;
@@ -25,7 +25,7 @@ public class Pan extends Producto{
         System.out.println("Cantidad Vendidos: " + getCantidadVendidos());
         System.out.println("Estado: " + getEstado());
         System.out.println("Precio: " + getPrecio());
-        System.out.println("Tamaño: " + tamaño);
+        System.out.println("Tamaño: " + tamanio);
         System.out.println("Sabor: " + sabor);
     }
 
