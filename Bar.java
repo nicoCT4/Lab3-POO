@@ -27,6 +27,7 @@ public class Bar{
             opcion = sc.nextInt();
             switch (opcion){
                 case 1:
+                    // Buscar un producto por ID
                     System.out.print("Ingrese el ID del producto: ");
                     int idBusqueda = sc.nextInt();
                     Producto productoEncontrado = gastos.buscarProductoPorID(idBusqueda);
@@ -39,6 +40,7 @@ public class Bar{
                     }
                     break;
                 case 2:
+                    // Listar categoria de productos
                     System.out.println("Las siguientes categorias estan disponibles: ");
                     System.out.println("Snack");
                     System.out.println("Bebida");
@@ -48,6 +50,7 @@ public class Bar{
                     gastos.listarProductosPorCategoria(categoria);
                     break;
                 case 3:
+                    // Mostrar las ventas actuales más comisión
                     gastos.mostrarVentasYComision();
                     break;
                 case 4:

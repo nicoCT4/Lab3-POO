@@ -50,6 +50,7 @@ public class Gastos {
     }
     
 
+    //Metodo utilizado en ejercicios anteriores
     public void CargarCSV(String nombreArchivo) {
         try {
             lector = new BufferedReader(new FileReader(nombreArchivo));
